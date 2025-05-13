@@ -13,12 +13,13 @@ This project demonstrates a simple  **CI/CD pipeline** using **jenkins** to buil
 
 ## Project structure 
 
-Jenkins Pipeline for CICD(folder)
-├── app.py              # Flask application
+Jenkins-Pipeline-for-CI-CD/
+├── app.py              # Main Flask application
 ├── requirements.txt    # Python dependencies
-├── test_app.py         # Pytest test cases
-├── Dockerfile          # For building the Docker image
-└── Jenkinsfile         # Jenkins Pipeline definition
+├── test_app.py         # Pytest unit tests
+├── Dockerfile          # Docker build instructions
+└── Jenkinsfile         # Jenkins pipeline definition
+
 
 ## Jenkins pipeline stages 
 
